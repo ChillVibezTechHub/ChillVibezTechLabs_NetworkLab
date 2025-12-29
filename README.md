@@ -31,12 +31,13 @@ RESTART COMMAND
 	SHUTDOWN /R /T 00
 
 # Setup Lab Environment 
+Copy and paste the following commands to the administrator powershell terminal:
 
-CLONE ROUTING LAB COMMAND
+COPY CLONE ROUTING LAB COMMAND
 	
 	git clone https://github.com/ChillVibezTechHub/ChillVibezTechLabs_NetworkLab.git
 
-ENABLE SIGNED SCRIPTS COMMAND
+COPY ENABLE SIGNED SCRIPTS COMMAND
 	
 	Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
@@ -48,10 +49,11 @@ COPY LOCAL PATH COMMAND
 
 	$localpath = Get-Location | Select-Object -ExpandProperty "Path"
 
-EXECUTE SETUP COMMAND	
+COPY EXECUTE SETUP COMMAND	
 
 	powershell $localpath\$SetupPath
 
+# Install Windows Server on each VM
 For each lab Virtual Machine follow the Windows installation guide here:
 https://youtube.com/shorts/mRFlOS7TIfg
 
