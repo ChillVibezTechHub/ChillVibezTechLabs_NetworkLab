@@ -9,7 +9,7 @@ Order Lab here:
 Sign up for Windows Trial and Download the ISO here:
 [WindowsServerTrial](https://info.microsoft.com/ww-landing-evaluate-windows-server-2025.html?lcid=en-us&culture=en-us&country=us)
 
-Install Git
+Install Git after Downloading here:
 [Download Git Windows/x64 Setup](https://git-scm.com/install/windows)
 
 # Setup Host Machine (Lab PC)  
