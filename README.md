@@ -21,11 +21,8 @@ RESTART COMMAND
 
 	SHUTDOWN /R /T 00
 
-
-
 # Setup Lab Environment 
 
-//Download the Routing Lab Files Using Git Clone
 CLONE ROUTING LAB COMMAND
 	
 	git clone https://github.com/ChillVibezTechHub/ChillVibezTechLabs_NetworkLab.git
@@ -38,9 +35,13 @@ COPY SETUP PATH COMMAND
 	
 	$SetupPath = "ChillVibezTechLabs_NetworkLab\RoutingLab_Setup.ps1"
 
+COPY LOCAL PATH COMMAND
 
-$localpath = Get-Location | Select-Object -ExpandProperty "Path"
-powershell $localpath\$SetupPath
+	$localpath = Get-Location | Select-Object -ExpandProperty "Path"
+
+EXECUTE SETUP COMMAND	
+
+	powershell $localpath\$SetupPath
 
 For each lab Virtual Machine follow the Windows installation guide here:
 https://youtube.com/shorts/mRFlOS7TIfg
