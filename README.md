@@ -1,0 +1,40 @@
+
+
+# Get Started
+Order Lab here:
+[https://Chillvibeztech.com](https://chillvibeztech.com/)
+
+
+Sign up for Windows Trial and Download the ISO here:
+[WindowsServerTrial](https://info.microsoft.com/ww-landing-evaluate-windows-server-2025.html?lcid=en-us&culture=en-us&country=us)
+
+# Setup Host Machine (Lab PC)  
+Enable Hyper V
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
+
+Restart
+SHUTDOWN /R /T 00
+
+# Setup Lab Environment 
+
+Enable Signed Powershell Script Execution
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+Download Setup Script
+[https://raw.githubusercontent.com/ChillVibezTechHub/ChillVibezTechLabs/refs/heads/main/NetworkLab_Setup.ps1](https://github.com/ChillVibezTechHub/ChillVibezTechLabs/raw/refs/heads/main/NetworkLab_Setup.ps1)
+
+
+Execute Lab Setup Script
+
+Find the Commands Here: [Setup Commands](https://github.com/jhamesCBT/ChillVibezTechLabs/blob/main/NetworkLabEnvironmentCommands)
+
+For each lab Virtual Machine follow the Windows installation guide here:
+https://youtube.com/shorts/mRFlOS7TIfg
+
+# Build the Lab
+Follow the steps in the content video here:
+https://youtu.be/dukyOlMFK0E
+
+
+Email if help is needed
+jhames@chillvibeztech.com
