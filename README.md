@@ -5,8 +5,7 @@ Windows 10/11 Pro or Enterprise
 64bit Processor supporting SLAT
 
 ### Notes:
-All commands in this lab are Powershell commands used in Administrator mode. 
-	Use the commands by copying and pasting them into the terminal.
+Use the commands in this lab by copying and pasting them into the powershell terminal.
 
 Enter Administrator mode command line by pressing Windows Key + X Key, then select "Terminal Admin". 
 
