@@ -27,16 +27,15 @@ git clone https://github.com/ChillVibezTechHub/ChillVibezTechLabs_NetworkLab.git
 Enable Signed Powershell Script Execution
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
-//run setup script
 
-// run teardown script
-
-
+$SetupPath = "ChillVibezTechLabs_NetworkLab\RoutingLab_Setup.ps1"
+$localpath = Get-Location | Select-Object -ExpandProperty "Path"
+powershell $localpath\$SetupPath
 
 For each lab Virtual Machine follow the Windows installation guide here:
 https://youtube.com/shorts/mRFlOS7TIfg
 
-# Build the Lab
+# Build the Routing Lab
 Follow the steps in the content video here:
 https://youtu.be/dukyOlMFK0E
 
