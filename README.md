@@ -21,33 +21,33 @@ Windows 10/11 Pro or Enterprise
 
 # Setup Host Machine (Lab PC)  
 
-1. COPY HYPER V COMMAND
+COPY HYPER V COMMAND
 
 	Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
 
-2. COPY RESTART COMMAND
+COPY RESTART COMMAND
 
 	SHUTDOWN /R /T 00
 
 # Setup Lab Environment 
 
-1. COPY CLONE ROUTING LAB COMMAND
+COPY CLONE ROUTING LAB COMMAND
 	
 	git clone https://github.com/ChillVibezTechHub/ChillVibezTechLabs_NetworkLab.git
 
-2. COPY ENABLE SIGNED SCRIPTS COMMAND
+COPY ENABLE SIGNED SCRIPTS COMMAND
 	
 	Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
-3. COPY SETUP PATH COMMAND
+COPY SETUP PATH COMMAND
 	
 	$SetupPath = "ChillVibezTechLabs_NetworkLab\RoutingLab_Setup.ps1"
 
-4. COPY LOCAL PATH COMMAND
+COPY LOCAL PATH COMMAND
 
 	$localpath = Get-Location | Select-Object -ExpandProperty "Path"
 
-5. COPY EXECUTE SETUP COMMAND	
+COPY EXECUTE SETUP COMMAND	
 
 	powershell $localpath\$SetupPath
 
