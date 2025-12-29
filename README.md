@@ -27,12 +27,15 @@ RESTART COMMAND
 
 //Download the Routing Lab Files Using Git Clone
 CLONE ROUTING LAB COMMAND
+	
 	git clone https://github.com/ChillVibezTechHub/ChillVibezTechLabs_NetworkLab.git
 
 ENABLE SIGNED SCRIPTS COMMAND
+	
 	Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 COPY SETUP PATH COMMAND
+	
 	$SetupPath = "ChillVibezTechLabs_NetworkLab\RoutingLab_Setup.ps1"
 
 
