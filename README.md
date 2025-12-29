@@ -1,4 +1,5 @@
-
+#About this Lab
+This lab uses Powershell commands in Administrator mode.
 
 # Get Started
 Order Lab here:
@@ -25,12 +26,13 @@ RESTART COMMAND
 # Setup Lab Environment 
 
 //Download the Routing Lab Files Using Git Clone
+CLONE ROUTING LAB COMMAND
 git clone https://github.com/ChillVibezTechHub/ChillVibezTechLabs_NetworkLab.git
 
-Enable Signed Powershell Script Execution
+ENABLE SIGNED SCRIPTS COMMAND
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
-
+COPY SETUP PATH
 $SetupPath = "ChillVibezTechLabs_NetworkLab\RoutingLab_Setup.ps1"
 $localpath = Get-Location | Select-Object -ExpandProperty "Path"
 powershell $localpath\$SetupPath
