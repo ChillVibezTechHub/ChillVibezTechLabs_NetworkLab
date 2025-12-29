@@ -6,6 +6,7 @@ Windows 10/11 Pro or Enterprise
 
 ### Notes:
 All commands in this lab are Powershell commands used in Administrator mode.
+
 Enter Administrator mode command line by pressing Windows Key + X Key, then select "Terminal Admin". 
 
 # Get Started
