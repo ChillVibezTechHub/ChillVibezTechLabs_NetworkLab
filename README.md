@@ -5,7 +5,8 @@ Windows 10/11 Pro or Enterprise
 64bit Processor supporting SLAT
 
 ### Notes:
-All commands in this lab are Powershell commands used in Administrator mode.
+All commands in this lab are Powershell commands used in Administrator mode. 
+	Use the commands by copying and pasting them into the terminal.
 
 Enter Administrator mode command line by pressing Windows Key + X Key, then select "Terminal Admin". 
 
@@ -31,7 +32,6 @@ RESTART COMMAND
 	SHUTDOWN /R /T 00
 
 # Setup Lab Environment 
-Copy and paste the following commands to the administrator powershell terminal:
 
 COPY CLONE ROUTING LAB COMMAND
 	
