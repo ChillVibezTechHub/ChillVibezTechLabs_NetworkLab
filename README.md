@@ -32,8 +32,11 @@ git clone https://github.com/ChillVibezTechHub/ChillVibezTechLabs_NetworkLab.git
 ENABLE SIGNED SCRIPTS COMMAND
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
-COPY SETUP PATH
+COPY SETUP PATH 
+
 $SetupPath = "ChillVibezTechLabs_NetworkLab\RoutingLab_Setup.ps1"
+
+
 $localpath = Get-Location | Select-Object -ExpandProperty "Path"
 powershell $localpath\$SetupPath
 
