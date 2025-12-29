@@ -1,5 +1,10 @@
 #About this Lab
-This lab uses Powershell commands in Administrator mode.
+##Requires: 
+Windows 10/11 Pro or Enterprise
+32MB Ram
+64bit Processor supporting SLAT
+
+##This lab uses Powershell commands in Administrator mode (Windows Key + X Key, then select "Terminal Admin"). 
 
 # Get Started
 Order Lab here:
