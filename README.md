@@ -11,8 +11,9 @@ Sign up for Windows Trial and Download the ISO here:
 Install Git
 
 # Setup Host Machine (Lab PC)  
-Enable Hyper V
-1. Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
+
+1. Enable Hyper V:
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
 
 Restart
 2. SHUTDOWN /R /T 00
