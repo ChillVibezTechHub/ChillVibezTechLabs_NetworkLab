@@ -12,10 +12,10 @@ Install Git
 
 # Setup Host Machine (Lab PC)  
 Enable Hyper V
-Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
+1. Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
 
 Restart
-SHUTDOWN /R /T 00
+2. SHUTDOWN /R /T 00
 
 
 
