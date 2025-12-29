@@ -17,10 +17,12 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
 Restart
 SHUTDOWN /R /T 00
 
-//Download the Routing Lab Files
-Git Clone
+
 
 # Setup Lab Environment 
+
+//Download the Routing Lab Files Using Git Clone
+git clone https://github.com/ChillVibezTechHub/ChillVibezTechLabs_NetworkLab.git
 
 Enable Signed Powershell Script Execution
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
