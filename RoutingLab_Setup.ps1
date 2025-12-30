@@ -5,7 +5,9 @@
 
 # Define variables
 $vhdPath = "C:\VM"
-$isoPath = $Env:USERPROFILE+"\Downloads\*SERVER_EVAL_x64FRE_en-us.iso"
+$downloadsFolder = $Env:USERPROFILE+"\Downloads"
+$isoFile = Get-ChildItem -Path $downloadsFolder -Filter "*SERVER_EVAL_x64FRE_en-us.iso" | Select-Object -ExpandProperty "Name"
+[String]$isoPath = $Env:USERPROFILE+"\Downloads\$isoFile"
 $memoryStartupBytes = 4GB
 $hdSize = 90GB
 $networkSwitchName = "Default Switch"
@@ -30,8 +32,8 @@ Add-VMHardDiskDrive -VMName $name -Path $path -ControllerLocation 1
 Add-VMNetworkAdapter -VMName $name -SwitchName $networkSwitchName
 
 # Add ISO for operating system installation
-Add-VMDvdDrive -VMName $name -Path $isoPath  -ControllerLocation 0
-
+Add-VMDvdDrive -VMName $name -Path $isoPath -ControllerLocation 0
+Write-Output $isoPath
 $old_boot_order = Get-VMFirmware -VMName $name | Select-Object -ExpandProperty BootOrder
 $new_boot_order = $old_boot_order | Where-Object { $_.BootType -ne "Network" }
 Set-VMFirmware -VMName $name -BootOrder $new_boot_order

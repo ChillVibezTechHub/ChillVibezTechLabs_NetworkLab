@@ -1,12 +1,14 @@
 ﻿# Define variables
 
 $names = @("Red","Green","Blue","Router")
-
+$vhdPath = "C:\VM"
 # Create virtual machine
 foreach($name in $names){
 
-Remove-VM -Name $name -Force
+$path = $vhdPath+"\$name\$name"+".vhdx"
 
+Remove-VM -Name $name -Force
+Remove-Item $path
 
 }
 
