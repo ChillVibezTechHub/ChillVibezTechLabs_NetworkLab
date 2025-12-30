@@ -59,6 +59,18 @@ https://youtube.com/shorts/mRFlOS7TIfg
 Follow the steps in the content video here:
 https://youtu.be/dukyOlMFK0E
 
+# Teardown Lab When Finished
+COPY TEARDOWN PATH COMMAND
+	
+	$TeardownPath = "ChillVibezTechLabs_NetworkLab\RoutingLab_Teardown.ps1"
+
+COPY LOCAL PATH COMMAND
+
+	$localpath = Get-Location | Select-Object -ExpandProperty "Path"
+	
+COPY EXECUTE SETUP COMMAND	
+
+	powershell $localpath\$TeardownPath
 
 Contact
 jhames@chillvibeztech.com
