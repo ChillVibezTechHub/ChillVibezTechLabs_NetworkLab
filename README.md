@@ -13,10 +13,10 @@ Windows 10/11 Pro or Enterprise
 1. Order Lab here:
 [https://Chillvibeztech.com](https://chillvibeztech.com/)
 
-2. Sign up for Windows Trial and Download the ISO here:
+2. Sign up for Windows trial and download the ISO here:
 [WindowsServerTrial](https://info.microsoft.com/ww-landing-evaluate-windows-server-2025.html?lcid=en-us&culture=en-us&country=us)
 
-3. Install Git after Downloading here:
+3. Install Git after downloading here:
 [Download Git Windows/x64 Setup](https://git-scm.com/install/windows)
 
 # Setup Host Machine (Lab PC)  
