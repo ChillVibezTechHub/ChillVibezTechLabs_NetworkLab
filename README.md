@@ -54,8 +54,11 @@ COPY EXECUTE SETUP COMMAND
 	powershell $localpath\$SetupPath
 
 # Install Windows Server on each VM
-For each lab Virtual Machine follow the Windows installation guide here:
-https://youtube.com/shorts/mRFlOS7TIfg
+For each Virtual Machine
+ * Start the VM
+ * Restart the VM
+ * Follow the Windows installation guide here:
+	https://youtube.com/shorts/mRFlOS7TIfg
 
 # Build the Routing Lab
 Follow the steps in the content video here:
