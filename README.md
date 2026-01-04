@@ -29,7 +29,7 @@ COPY RESTART COMMAND
 
 	SHUTDOWN /R /T 00
 
-# Setup Lab Environment 
+# Stage Lab Environment 
 
 COPY CLONE ROUTING LAB COMMAND
 	
@@ -38,6 +38,8 @@ COPY CLONE ROUTING LAB COMMAND
 COPY ENABLE SIGNED SCRIPTS COMMAND
 	
 	Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+	
+# Setup Lab Environment
 
 COPY SETUP PATH COMMAND
 	
