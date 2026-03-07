@@ -14,6 +14,10 @@ The Completed NetworkLab Environment is a prerequesite
 
 # Setup Lab Environment
 
+CLONE MONITORING MODULE REPO COMMAND
+
+	git clone https://github.com/ChillVibezTechHub/ChillVibezTechLabs_NetworkLab.git
+
 COPY SETUP PATH COMMAND
 	
 	$SetupPath = "ChillVibezTechLabs_NetworkLab\MonitoringModule\MonitoringModule_Setup.ps1"
