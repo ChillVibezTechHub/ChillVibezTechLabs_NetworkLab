@@ -16,6 +16,14 @@ The Completed NetworkLab Environment is a prerequesite
 
 COPY SETUP PATH COMMAND
 	
-	$SetupPath = "ChillVibezTechLabs_NetworkLab\RoutingLab_Setup.ps1"
+	$SetupPath = "ChillVibezTechLabs_NetworkLab\MonitoringModule\MonitoringModule_Setup.ps1"
+
+COPY LOCAL PATH COMMAND
+
+	$localpath = Get-Location | Select-Object -ExpandProperty "Path"
+
+COPY EXECUTE SETUP COMMAND	
+
+	powershell $localpath\$SetupPath
 
 
