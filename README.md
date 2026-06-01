@@ -1,5 +1,6 @@
+
 # About this Lab
-Get hands on networking experience by completing this lab!
+Get hands on networking experience by completing this lab! 
 Follow the 3 steps below to get started!
 
 ## Requirements: 
@@ -20,9 +21,9 @@ Install Git after downloading here:
 ## 3. Setup Host Machine
 ### Setup Host Machine Part 1  
 ### Notes:
-* Use the commands in this lab by copying and pasting them into the powershell terminal.
 
 * Enter Administrator mode command line by pressing Windows Key + X Key, then select "Terminal Admin". 
+* Use the commands in this lab by copying and pasting them into the powershell terminal.
 
 COPY HYPER V COMMAND
 
