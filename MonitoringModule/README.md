@@ -7,15 +7,16 @@ Follow the 3 steps below to get started!
 The Completed NetworkLab Environment is a prerequesite. Find it here:
 [ChillVibezTech_NetworkLab](https://github.com/ChillVibezTechHub/ChillVibezTechLabs_NetworkLab)
 
-## 1. Get Started
 Order the Lab Instructions for Monitoring Module here:
 [https://Chillvibeztech.com](https://chillvibeztech.com/)
 
-## 2. Download Wireshark 
+# Get Started
+
+## 1. Download Wireshark 
 Download Wireshark from here:
 https://www.wireshark.org/
 
-## 3. Setup Lab Environment
+## 2. Setup Lab Environment
 
 ### Notes:
 
@@ -39,6 +40,10 @@ COPY EXECUTE SETUP COMMAND
 
 	powershell $localpath\$SetupPath
 
-# Complete The Youtube Video!
+## 3. Complete the Youtube Monitoring Module
+
+## Contact Us
+For questions, support, or feedback. Send an Email here:
+contactchillvibez@chillvibeztech.com
 
 
