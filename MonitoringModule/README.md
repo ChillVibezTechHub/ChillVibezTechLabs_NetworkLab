@@ -1,6 +1,6 @@
 
 # About this Module
-Get hands on networking monitoring experience by completing this lab.
+Get hands on networking monitoring experience by completing this lab!
 Follow the 3 steps below to get started!
 
 ## Requirements: 
