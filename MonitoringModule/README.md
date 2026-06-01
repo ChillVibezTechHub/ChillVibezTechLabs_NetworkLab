@@ -5,7 +5,7 @@ Follow the 3 steps below to get started!
 
 ## 0. Requirements: 
 The Completed NetworkLab Environment is a prerequesite
-[https://github.com/ChillVibezTechHub/ChillVibezTechLabs_NetworkLab(ChillVibezTech NetworkLab)]
+[https://github.com/ChillVibezTechHub/ChillVibezTechLabs_NetworkLab](NetworkLab)
 
 
 ## 1. Get Started
