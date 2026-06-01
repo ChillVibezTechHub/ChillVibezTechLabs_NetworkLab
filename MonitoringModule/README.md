@@ -11,7 +11,8 @@ The Completed NetworkLab Environment is a prerequesite. Find it here:
 Order Module here:
 [https://Chillvibeztech.com](https://chillvibeztech.com/)
 
-## 2. Download Wireshark Here
+## 2. Download Wireshark 
+Download Wireshark from here:
 https://www.wireshark.org/
 
 ## 3. Setup Lab Environment
