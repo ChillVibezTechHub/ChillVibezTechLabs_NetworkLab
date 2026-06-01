@@ -8,7 +8,7 @@ The Completed NetworkLab Environment is a prerequesite. Find it here:
 [ChillVibezTech_NetworkLab](https://github.com/ChillVibezTechHub/ChillVibezTechLabs_NetworkLab)
 
 ## 1. Get Started
-Order Module here:
+Order the Lab Instructions for Monitoring Module here:
 [https://Chillvibeztech.com](https://chillvibeztech.com/)
 
 ## 2. Download Wireshark 
