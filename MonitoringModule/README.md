@@ -18,9 +18,9 @@ https://www.wireshark.org/
 ## 3. Setup Lab Environment
 
 ### Notes:
-* Use the commands in this lab by copying and pasting them into the powershell terminal.
 
 * Enter Administrator mode command line by pressing Windows Key + X Key, then select "Terminal Admin".
+* Use the commands in this lab by copying and pasting them into the powershell terminal.
 
 
 CLONE MONITORING MODULE REPO COMMAND
