@@ -16,7 +16,7 @@ Order the Lab Instructions for Monitoring Module here:
 Download Wireshark from here:
 https://www.wireshark.org/
 
-## 2. Setup Lab Environment
+## 2. Pre Setup Lab Environment
 
 ### Notes:
 
@@ -40,7 +40,8 @@ COPY EXECUTE SETUP COMMAND
 
 	powershell $localpath\$SetupPath
 
-## 3. Complete the Youtube Monitoring Module
+## 3. Build Lab
+Find link to instructions in email after purchase.
 
 ## Contact Us
 For questions, support, or feedback. Send an Email here:
