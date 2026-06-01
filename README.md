@@ -1,7 +1,7 @@
 
 # About this Lab
 Get hands on networking experience by completing this lab! 
-Follow the 3 steps below to get started!
+Follow the 5 steps below to get started!
 
 ## Requirements: 
 Windows 10/11 Pro or Enterprise
