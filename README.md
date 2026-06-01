@@ -1,25 +1,28 @@
 # About this Lab
-### Requirements: 
+Get hands on networking experience by completing this lab!
+Follow the 3 steps below to get started!
+
+## Requirements: 
 Windows 10/11 Pro or Enterprise
 32MB Ram
 64bit Processor supporting SLAT
 
+# Get Started
+
+## 1. Download Windows Server
+Sign up for Windows trial and download the ISO here:
+[WindowsServerTrial](https://info.microsoft.com/ww-landing-evaluate-windows-server-2025.html?lcid=en-us&culture=en-us&country=us)
+
+## 2. Install Github
+Install Git after downloading here:
+[Download Git Windows/x64 Setup](https://git-scm.com/install/windows)
+
+## 3. Setup Host Machine
+### Setup Host Machine Part 1  
 ### Notes:
 * Use the commands in this lab by copying and pasting them into the powershell terminal.
 
 * Enter Administrator mode command line by pressing Windows Key + X Key, then select "Terminal Admin". 
-
-# Get Started
-1. Order Lab here:
-[https://Chillvibeztech.com](https://chillvibeztech.com/)
-
-2. Sign up for Windows trial and download the ISO here:
-[WindowsServerTrial](https://info.microsoft.com/ww-landing-evaluate-windows-server-2025.html?lcid=en-us&culture=en-us&country=us)
-
-3. Install Git after downloading here:
-[Download Git Windows/x64 Setup](https://git-scm.com/install/windows)
-
-# Setup Host Machine (Lab PC)  
 
 COPY HYPER V COMMAND
 
@@ -29,7 +32,7 @@ COPY RESTART COMMAND
 
 	SHUTDOWN /R /T 00
 
-# Stage Lab Environment 
+### Setup Host Machine Part 2
 
 COPY CLONE ROUTING LAB COMMAND
 	
@@ -39,7 +42,7 @@ COPY ENABLE SIGNED SCRIPTS COMMAND
 	
 	Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 	
-# Setup Lab Environment
+### Setup Host Machine Part 3
 
 COPY SETUP PATH COMMAND
 	
@@ -53,18 +56,18 @@ COPY EXECUTE SETUP COMMAND
 
 	powershell $localpath\$SetupPath
 
-# Install Windows Server on each VM
+## 4. Install Windows Server on each VM
 For each Virtual Machine
  * Start the VM
  * Restart the VM
  * Follow the Windows installation guide here:
 	https://youtube.com/shorts/mRFlOS7TIfg
 
-# Build the Routing Lab
-Follow the steps in the content video here:
-https://youtu.be/dukyOlMFK0E
+## 5. Build the Lab
+Follow the instructions in the Email after purchase
+Order lab instructions here: [https://Chillvibeztech.com](https://chillvibeztech.com/)
 
-# Teardown Lab When Finished
+## Teardown Host Setup When Finished
 COPY TEARDOWN PATH COMMAND
 	
 	$TeardownPath = "ChillVibezTechLabs_NetworkLab\RoutingLab_Teardown.ps1"
@@ -77,5 +80,6 @@ COPY EXECUTE SETUP COMMAND
 
 	powershell $localpath\$TeardownPath
 
-Contact
-jhames@chillvibeztech.com
+## Contact Us
+For questions, support, or feedback. Send an Email here:
+contactchillvibez@chillvibeztech.com
