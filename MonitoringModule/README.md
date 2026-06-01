@@ -13,7 +13,7 @@ The Completed NetworkLab Environment is a prerequesite. Find it here:
 Download Wireshark from here:
 https://www.wireshark.org/
 
-## 2. Setup Host Environment
+## 2. Setup Host Machine
 
 ### Notes:
 
